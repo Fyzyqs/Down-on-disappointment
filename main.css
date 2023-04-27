@@ -1,0 +1,51 @@
+body {
+    margin: 0 auto;
+    height: 75vh;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+
+main {
+    background-image: url("5633195_2951232.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border: 5px solid black;
+    margin: 60px;
+    height: 100%;
+}
+
+#input-div {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    
+}
+
+.guess {
+    display: inline-flex;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 50px;
+    width: 25px;
+    text-align: center;
+}
+
+#button-container {
+    justify-items: center;
+    padding-top: 20px;
+    padding-bottom: 55px;
+}
+
+button {
+    height: 30px;
+    width: 50px;
+    border: none;
+    text-align: center;
+}
